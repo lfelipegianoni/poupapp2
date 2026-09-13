@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    /* Neutral colors */
+    --color-neutral-darker: #1C1D21;
+    --color-neutral-background: #212229;
+    --color-neutral-surface: #2A2C34;
+    --color-neutral-header: #33353F;
+    --color-neutral-text: #F5F5F5;
+
+    /* Primary colors */
+    --color-primary-highlight: #7693FF;
+
+    /* Secondary colors */
+    --color-secondary-income: #06FF62;
+    --color-secondary-expense: #F8782B;
+
+    --font-work-sans: "Work Sans", sans-serif;
+}
+
+/*Isso e do tailwind para definir uma fonte global*/
+@layer base {
+    html {
+        @apply font-work-sans;
+    }
+}
