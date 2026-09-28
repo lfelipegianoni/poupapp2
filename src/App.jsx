@@ -20,7 +20,7 @@ function App() {
           <Searchinput name="q" />
           <div>
             <Typography variant="h1">
-              Olá, Vinny!
+              Olá, Luis!
             </Typography>
             <Typography>
               Veja como estão suas finanças hoje.
